@@ -14,7 +14,7 @@ pipeline {
         }
         stage('SONARQUBE-ANALYSIS') {
             steps {
-                withSonarQubeEnv(credentialsId: 'sonarqube_secret1') {
+                withSonarQubeEnv(Moon-server') {
                 sh'''$SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=boxfuse-sample-java-war-hello \
                 -Dsonar.java.binaries=.  \
                 -Dsonar.projectkey=boxfuse-sample-java-war-hello '''
