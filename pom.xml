@@ -55,11 +55,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://52.66.135.232:8081/repository/box-snap/<url>
+            <url>http://52.66.135.232:8081/repository/box-snap/</url>
         </snapshotRepository>
         <repository>
             <id>nexusRepo</id>
-            <url>http://52.66.135.232:8081/repository/box-release/<url>
+            <url>http://52.66.135.232:8081/repository/box-release/</url>
         </repository>
     </distributionManagement>
 </project>
